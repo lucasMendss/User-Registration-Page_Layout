@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(60, 86, 107);
+  margin: 0px;
+  height: 600px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white
+}
+
+main {
+  display: flex;
+  /*background-color: rgb(37, 63, 85);*/
+  border-top-right-radius: 85px;
+  border-top-left-radius: 85px;
+}
+
+form {
+  background-color: rgb(60, 86, 107);
+  border-radius: 25px;
+  margin: auto;
+  padding: 25px;
+  border: hidden 2px gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#status_senha {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.senha {
+  display: flex;
+  align-items: center;
+}
+
+#caixa_senha {
+  width: 175px;
+}
+
+.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 70px;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: white;
+}
+
+.label_texto {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.caixa_texto {
+  margin-top: 4px;
+  width: 200px;
+  border-style: hidden;
+  border-radius: 8px;
+  height: 20px;
+  border: solid 1px gray;
+}
+
+#botao_entrar {
+  display: flex; /* Makes the button a block element */
+  margin: auto; /* Auto margins will center the block element */
+  margin-top: 30px;
+  height: 40px;
+  width: 160px;
+  border-radius: 60px;
+  border: solid 1px gray;
+  background-color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+

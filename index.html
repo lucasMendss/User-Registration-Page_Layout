@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Faça seu cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="titulo">Faça seu cadastro</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <label for="nome" class="label_texto">Nome de usuário:</label>
+        <br>
+        <input type="text" name="nome" class="caixa_texto" placeholder="user_exemplo" required>
+        <br><br>
+        <label for="nascimento" class="label_texto">Data de nascimento:</label>
+        <br>
+        <input type="date" name="nascimento" class="caixa_texto" id="caixa_data" min="1900-12-30" max="2015-12-30" required> 
+        <br><br>
+        <label for="senha" class="label_texto">Senha:</label>
+        <div class="senha">
+          <input type="password" name="senha" class="caixa_texto" id="caixa_senha" placeholder="senha123" required>
+          <img src="./assets/visible.png" alt="" id="status_senha" onclick="trocarImagem()" style="cursor:pointer;">
+        </div>
+        
+        <input type="submit" name="entrar" id="botao_entrar" value="Entrar">
+      </form>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
